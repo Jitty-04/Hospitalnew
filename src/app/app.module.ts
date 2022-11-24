@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HospitalEntryComponent } from './hospital-entry/hospital-entry.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HospitalEntryComponent
+    HospitalEntryComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
