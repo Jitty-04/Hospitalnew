@@ -23,7 +23,10 @@ const myRout:Routes=[
     path:"delete",
     component:StudentDeleteComponent
   },
- 
+ {
+  path:"view",
+  component:ViewComponent
+ }
 ]
 
 
