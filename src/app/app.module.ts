@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HospitalEntryComponent } from './hospitalentry/hospital-entry.component';
 import { SearchComponent } from './search/search.component';
 import { StudentDeleteComponent } from './student-delete/student-delete.component';
+import { ViewComponent } from './view/view.component';
 
 
 const myRout:Routes=[
@@ -21,7 +22,8 @@ const myRout:Routes=[
   {
     path:"delete",
     component:StudentDeleteComponent
-  }
+  },
+ 
 ]
 
 
@@ -32,7 +34,8 @@ const myRout:Routes=[
     AppComponent,
     HospitalEntryComponent,
     SearchComponent,
-    StudentDeleteComponent
+    StudentDeleteComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
