@@ -8,6 +8,7 @@ import { HospitalEntryComponent } from './hospitalentry/hospital-entry.component
 import { SearchComponent } from './search/search.component';
 import { StudentDeleteComponent } from './student-delete/student-delete.component';
 import { ViewComponent } from './view/view.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 const myRout:Routes=[
@@ -38,7 +39,8 @@ const myRout:Routes=[
     HospitalEntryComponent,
     SearchComponent,
     StudentDeleteComponent,
-    ViewComponent
+    ViewComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
