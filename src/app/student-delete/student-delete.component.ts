@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class StudentDeleteComponent {
 
+  id=""
+readValues=()=>
+{
+  let data:any={"id":this.id}
+  console.log(data)
+}  
+
 }
